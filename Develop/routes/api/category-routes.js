@@ -36,18 +36,18 @@ router.get("/:id", async (req, res) => {
 router.post("/", async(req, res) => {
   // create a new category
   Category.create(req.body).then((category) => {
-    res.status(200).json(category);
+    res.status(200).json({message:`You have created ${category} as a new category`});
   });
 });
 
 router.put("/:id", async(req, res) => {
   // update a category by its `id` value
-  Tag.update(req.body, {
+  Category.update(req.body, {
     where: {
       id: req.params.id,
     },
-  }).then((tag)=>{
-    res.json({message: `You just updated your ${tag} tag`})
+  }).then((category)=>{
+    res.json({message: `You just updated your ${category} category`})
   });
 });
 
