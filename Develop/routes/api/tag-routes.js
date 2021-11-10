@@ -37,7 +37,7 @@ router.post('/', async (req, res) => {
   // create a new tag
   Tag.create(req.body)
   .then((tag)=>{
-    res.status(200).json({message:` You have created ${tag}as a new tag.`})
+    res.status(200).json({message:` You have created a new tag.`})
   })
 });
 

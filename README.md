@@ -27,7 +27,7 @@ To get started the user can naviagate to the following url http://localhost:3001
 ## License
 
 [License: MIT](https://opensource.org/licenses/MIT)
-MIT License
+
 
 Copyright (c) [2021] [Kelly R. Cano]
 
