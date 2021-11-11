@@ -48,7 +48,7 @@ router.put('/:id', async (req, res) => {
       id: req.params.id,
     },
   }).then((tag)=>{
-    res.json({message: `You just updated tag id ${tag}`})
+    res.json({message: `You just updated a tag `})
   });
 
 });
@@ -57,7 +57,7 @@ router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
   Tag.destroy({where:{id:req.params.id}})
   .then((tag)=>{
-  res.json({message: `You deleted ${tag}.`})
+  res.json({message: `You deleted a tag.`})
   })
 });
 

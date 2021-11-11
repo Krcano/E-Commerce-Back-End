@@ -6,7 +6,7 @@
 
 This is a back-end application that allows you to view all the products with categories and tags associated with each product in this online store. It lists each product and breaks it up into categories based on the type of item it is. It also attaches tags to each product based on color or genre of music. It even gives you the option to add to the store's database by creating a new product, category, or tag. Another feature is that you can delete or update a product, category, or tag from the database.
 
-[Link to Video Description](https://drive.google.com/file/d/1EbVUvCJvXXvXgl_Q7Vn4GLrSujlzmxN8/view)
+[Link to Video Description](https://drive.google.com/file/d/1XFH8WalbSPbIrCKhAijjnpICk15YUcDq/view)
 
 ## Table of Contents
 
